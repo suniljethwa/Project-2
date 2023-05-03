@@ -1,0 +1,60 @@
+@media only screen and (max-width: 767px)
+{   *{box-sizing: border-box;}
+    .mainimg{background-size: 100% 100%;height: 500px;}
+    .nav{height: 70px;padding: 0px 10px;}
+    .nav img{height: 50px;}
+    .header{display: none;}
+    .nav .menu .option{display: none;}
+    .nav i{display: block;}
+    .shadow h2{font-size: 30px;margin-left: 50px;}
+    .shadow h1{font-size: 30px;margin-left: 50px;}
+    .shadow p{width : 430px;margin-left: 50px;}
+    .shadow button{margin-left: 50px;}
+    .mainimg .shadow{height: 500px;}    
+    .dote{padding: 0px 50px;justify-content: center;height: 700px;}
+    .dote .detail{padding-top: 50px;width: 100%;padding-left: 0px;}
+    .dote .detail p{margin-bottom: 20px;}
+    .dote .detail p b{font-size: 15px;}
+    .dote img{height: 353px;}
+    .count .row .onec{width: 100%!important;}
+    .footer .aboutcmp{width: 100%; padding-left: 30px;}
+    .footer .populer{width: 100%; padding-left: 30px;}
+    .footer .follow{width: 100%; padding-left: 30px;}
+    .footer .contectcmp{width: 100%; padding-left: 30px;}
+}
+
+
+@media only screen and (max-width: 1221px)
+{
+    .dote{padding: 0px 50px;justify-content: center;height: 700px;}
+    .dote .detail{padding-top: 50px;width: 100%;padding-left: 0px;}
+    .dote .detail p{margin-bottom: 20px;}
+    .dote .detail p b{font-size: 15px;}
+    .dote img{height: 353px;}
+    .card{justify-content: center;}
+    .service{justify-content: center;}
+    .count .row .onec{width: 50%; margin-bottom: 20px; }
+    .count .row .onec:not(:last-child){border: none;}
+    .offer{justify-content: center;}
+    .offer .basic{margin-left: 20px;}
+    .ceo .ceodtl img{height: 80px;width: 80px;border-radius:50%;}
+    .ceo p{margin: 10px;}
+    .ceo{font-size: 13px;}
+    
+
+}
+@media only screen and (max-width: 1356px)
+{
+    .pfphoto{padding: 0%; justify-content: center;height: auto;}
+    .footer{flex-wrap: wrap;padding: 100px 0px;}
+   
+}
+@media only screen and (max-width: 1198px)
+{
+    .pfphoto .one{ margin-bottom: 10px;}
+    .pfphoto .tow{margin-bottom: 10px;}
+    .pfphoto .three{margin-bottom: 10px;}
+    .pfphoto .four{margin-bottom: 100px;}
+    .pfphoto{flex-wrap: wrap;}
+}
+.letest{flex-wrap: wrap;}
